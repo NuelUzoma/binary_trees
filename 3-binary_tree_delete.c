@@ -6,6 +6,7 @@
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
+	tree = malloc(sizeof(binary_tree_t));
 	if (tree == NULL)
 	{
 		return;
