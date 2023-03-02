@@ -9,7 +9,6 @@ void binary_tree_delete(binary_tree_t *tree)
 	binary_tree_t *newnode;
 
 	newnode = malloc(sizeof(binary_tree_t));
-	newnode->parent = tree;
 	newnode->left = NULL;
 	newnode->right = NULL;
 
