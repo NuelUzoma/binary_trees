@@ -19,7 +19,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	{
 		leftLeaf = binary_tree_leaves(tree->left);
 		rightLeaf = binary_tree_leaves(tree->right);
-		
+
 		if (leftLeaf - 1 > rightLeaf - 1)
 		{
 			return (leftLeaf + 1);
